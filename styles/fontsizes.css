@@ -1,0 +1,56 @@
+@media screen and (min-width: 1430px) {
+    .p-lg-35{
+        font-size: 35px !important;
+    }
+    .p-lg-30{
+        font-size: 30px !important;
+    }
+    .p-lg-25{
+        font-size: 25px !important;
+    }
+    .p-lg-20{
+        font-size: 20px !important;
+    }
+    .p-lg-15{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 720px) {
+    .p-sm-35{
+        font-size: 35px !important;
+    }
+    .p-sm-30{
+        font-size: 30px !important;
+    }
+    .p-sm-25{
+        font-size: 25px !important;
+    }
+    .p-sm-20{
+        font-size: 20px !important;
+    }
+    .p-sm-17{
+        font-size: 17px !important;
+    }
+    .p-sm-15{
+        font-size: 15px !important;
+    }
+    .p-sm-14{
+        font-size: 14px !important;
+    }
+    .p-sm-12{
+        font-size: 12px !important;
+    }
+}
+
+.p-xl{
+    font-size: 30px ;
+}
+.p-lg{
+    font-size: 25px ;
+}
+.p-md{
+    font-size: 20px ;
+}
+.p-sm{
+    font-size: 15px ;
+}

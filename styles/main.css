@@ -1,0 +1,8 @@
+a{
+    cursor: pointer;
+}
+
+.maxWidth{
+    max-width: 1700px;
+    width: 100%
+}
