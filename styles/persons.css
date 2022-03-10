@@ -1,0 +1,93 @@
+@media screen and (max-width: 767px) {
+    .rootCarrouselInfo{
+        margin: 0px 60px !important;
+    }
+    .blockquote{
+        width: 100% !important;
+        padding: 30px 20px !important;
+        text-align: center !important;
+    }
+    
+    .containerPersons{
+        padding: 130px 0px !important;
+    }
+}
+
+.containerPersons{
+    background-color: #32325D;
+    padding: 180px 0px;
+}
+
+.rootCarrouselInfo{
+    color: #fff;
+    margin: 0px 140px;
+    justify-content: space-evenly;
+}
+
+.name{
+    color: #FCD569;
+    font-weight: 400;
+}
+.job{
+    color: #fff;
+}
+
+.carousel{
+    width: 100%;
+}
+
+.carrouselButton{
+    display: flex;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: #7795F8;
+}
+
+.rootCarrouselInfo img {
+    width: 175px;
+    height: 100px;
+}
+
+.rootImgCarrousel{
+    overflow: hidden;
+    width: 100px !important;
+    border-radius: 50%;
+}
+
+.blockquote{
+    color: #fff !important;
+    width: 55%;
+    padding: 0px 20px;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+
+.quote{
+    color: #FCD569;
+    font-weight: 500;
+    font-size: 20px
+}
+
+/* .blockquote:before {
+    content: "";
+    display: flex;
+    position: relative;
+    width: 12px;
+    height: 9px;
+    top: 13px;
+    background-image: url(https://stripe.com/img/v3/atlas_v2/quotes.svg);
+    left: 7px;
+}
+.blockquote:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 9px;
+    top: -7px;
+    background-image: url(https://stripe.com/img/v3/atlas_v2/quotes.svg);
+    background-size: 24px 9px;
+    background-position: 100% 0;
+    right: -7px;
+} */

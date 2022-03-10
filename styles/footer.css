@@ -1,0 +1,19 @@
+.containerFooter{
+    background-color: #f2f9ff;
+}
+
+.rootFooterInfo{
+    width: 100%;
+}
+
+.footerTitle{
+    color: #8898A9;
+    font-weight: 400;
+}
+
+.footerInfo{
+    transition: all 0.3s ease-in-out;
+}
+.footerInfo:hover{
+    color: #32325D;
+}

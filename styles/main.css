@@ -1,8 +1,100 @@
-a{
+.aYellow{
     cursor: pointer;
+    text-decoration: none !important;
+    color: #ce7c3a !important;
+    transition: all 0.35s ease-in-out;
+    font-weight: 300;
+}
+.aGrey{
+    cursor: pointer;
+    color: #8898A9 !important;
+    text-decoration: none !important;
+    transition: all 0.35s ease-in-out;
+    font-weight: 300;
+}
+.aGrey:hover{ 
+    color: #32325D !important;
+}
+
+.aYellow:hover{ 
+    color: #9E2146 !important;
+}
+
+p{
+    margin: 0 !important;
+    font-weight: 200;
+    color: #32325D
 }
 
 .maxWidth{
     max-width: 1700px;
     width: 100%
+}
+
+.bottomDivider:before {
+    content : "";
+    position: absolute;
+    bottom  : 5px;
+    height  : 1px;
+    width   : 90%;  /* or 100px */
+    border-bottom:2px solid rgb(133 133 133 / 23%);
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }
+
+
+.marginContainer{
+    margin: 0px 60px
+}
+.button{
+    border-radius: 5px;
+    background-color: #32325D;
+    color: #fff !important;
+    padding: 10px 20px;
+    height: fit-content;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: all 0.35s ease-in-out;
+}
+.button:hover {
+    transform: translateY(-3px);
+    color: #fff !important;
+}
+.yellowP{
+    color: #ce7c3a !important;
+}
+
+hr{
+    border-top: 1px solid #ddd6d6;
+    width: 100%
+}
+
+
+.containerBottomDivider {
+    border-bottom: 1px solid #ddd6d6;
+}
+
+.prueba{
+    height: 800px !important;
+}
+
+input{
+    font-weight: 300 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-right: 1px solid #ddd6d6 !important; 
+}
+
+button{
+    font-weight: 400 !important;
+    transition: all 0.3s ease-in-out !important;
+    color: #32325D !important;
+    border: none !important;
+}
+button:hover{
+    background-color: #fff !important;
+    color: #32325D !important;
+    box-shadow: #32325D 0px 3px 8px;
 }

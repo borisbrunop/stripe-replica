@@ -1,0 +1,38 @@
+@media screen and (max-width: 720px) {
+    .rootDescriptionTitle{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+    .containerTitle{
+        height: 900px !important;
+    }
+}
+
+.containerTitle{
+    height: 600px;
+}
+.containerTitle2{
+    margin: 140px 0px
+}
+
+.paddingYTitle{
+    padding: 15px 0px;
+}
+
+.rootDescriptionTitle{
+    width: 70%
+}
+
+.rootIconTitle i{
+    color: #FCD569;
+}
+
+.rootTitleinfoTitle p {
+    text-align: left;
+    font-weight: 400 !important
+}
+.rootInfoTitle p {
+    text-align: left;
+}

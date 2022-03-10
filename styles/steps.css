@@ -1,0 +1,122 @@
+@media (max-width: 670px){
+    .timeline .line {
+        top: 50% !important;
+        left: 37px !important;
+        right: 80px !important;
+        width: 2px !important;
+        height: 78% !important;
+    }
+    .timeline{
+        flex-direction: column;
+    }
+
+    .day{
+        margin: 0px 30px !important;
+    }
+
+    .step{
+        display: flex !important;
+        margin: 20px 0px !important;
+    }
+    .common-BodyText{
+        text-align: left;
+        width: 100%;
+        padding: 15px 30px !important;
+    }
+    .infoStep{
+        align-items: start !important;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .timeline .line {
+        width: 77% !important;
+    }
+    .common-BodyText{
+        padding: 20px 30px !important;
+    }
+}
+
+.timeline .line {
+    position: absolute;
+    top: 38px;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 80px;
+    width: 80%;
+    height: 2px;
+    background-color: #ddd6d6;
+    z-index: -1;
+}
+
+.timeline{
+    position: relative;
+    display: flex;
+    list-style: none;
+    padding: 0px !important;
+}
+
+.containerSteps{
+    padding: 200px 0px
+}
+
+.icon-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon-container i {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+    color: #FCD469;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.step{
+    margin: 0px 20px;
+}
+
+.common-BodyText{
+    padding: 20px 0px ;
+    font-weight: 400;
+}
+
+.buttonYellow{
+    border-radius: 15px;
+    background-color: #ce7c3a;
+    color: #fff !important;
+    padding: 10px 20px;
+    height: fit-content;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none !important;
+    transition: all 0.35s ease-in-out;
+}
+.buttonYellow:hover {
+    transform: translateY(-3px);
+    color: #fff !important;
+}
+
+br{
+    margin: 10px 0px
+}
+
+.day{
+    background-color: #CE7C39;
+    color: #fff;
+    border-radius: 15px;
+    padding: 4px 0px;
+    width: 90px;
+    font-weight: 300;
+    margin: 10px 30px;
+}
+
+.infoStep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
