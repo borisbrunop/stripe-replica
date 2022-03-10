@@ -68,26 +68,3 @@
     font-weight: 500;
     font-size: 20px
 }
-
-/* .blockquote:before {
-    content: "";
-    display: flex;
-    position: relative;
-    width: 12px;
-    height: 9px;
-    top: 13px;
-    background-image: url(https://stripe.com/img/v3/atlas_v2/quotes.svg);
-    left: 7px;
-}
-.blockquote:after {
-    content: "";
-    display: inline-block;
-    position: relative;
-    width: 12px;
-    height: 9px;
-    top: -7px;
-    background-image: url(https://stripe.com/img/v3/atlas_v2/quotes.svg);
-    background-size: 24px 9px;
-    background-position: 100% 0;
-    right: -7px;
-} */
